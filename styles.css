@@ -1,0 +1,9 @@
+h1 {
+color: purple;
+text-align: center;
+}
+
+::selection {
+color: white;
+background: purple;
+}
