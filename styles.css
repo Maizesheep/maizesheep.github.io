@@ -1,7 +1,21 @@
+html {
+	background-color: #601f9e;
+}
+
 h1 {
-	color: purple;
+	color: yellow;
 	text-align: center;
 	font-family: Inter, Roboto, sans-serif;
+}
+
+h2 {
+	color: yellow;
+	font-family: Roboto, sans-serif;
+}
+
+p {
+	color: white;
+	font-family: Roboto, sans-serif;
 }
 
 ::selection {
