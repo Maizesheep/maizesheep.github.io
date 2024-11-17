@@ -1,9 +1,12 @@
 h1 {
-color: purple;
-text-align: center;
+	color: purple;
+	text-align: center;
 }
 
 ::selection {
-color: white;
-background: purple;
+	color: white;
+	background: purple;
 }
+
+.h1 {
+	font-family: Austria, Arial, sans-serif;
