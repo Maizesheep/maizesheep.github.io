@@ -23,6 +23,16 @@ p {
 	font-family: Roboto, sans-serif;
 }
 
+.box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	float: left;
+	padding: 30px;
+}
+
 ::selection {
 	color: white;
 	background: purple;
