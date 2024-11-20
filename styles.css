@@ -26,6 +26,14 @@ a {
 	color: yellow;
 }
 
+a:visited {
+	color: yellow;
+}
+
+a:hover {
+	color: white;
+}
+
 p {
 	color: white;
 	font-family: "Roboto", sans-serif;
