@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html {
 	background-color: #601f9e;
 }
@@ -5,22 +7,44 @@ html {
 h1 {
 	color: gold;
 	text-align: center;
-	font-family: Inter, Roboto, sans-serif;
+	font-family: "Inter", "Roboto", sans-serif;
 }
 
 h2 {
 	color: yellow;
-	font-family: Roboto, sans-serif;
+	font-family: "Roboto", sans-serif;
+	float: left;
+	padding-left: 30px;
 }
 
 h3 {
 	color: yellow;
-	font-family: Roboto, sans-serif;
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	color: yellow;
 }
 
 p {
 	color: white;
-	font-family: Roboto, sans-serif;
+	font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	max-width: fit-content;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	padding-left: 30px;
+	max-width: 70%;
+	height: auto;
+	clear: both;
+	float: left;
 }
 
 .box {
@@ -29,8 +53,14 @@ p {
 }
 
 .nav {
-	float: left;
-	padding: 30px;
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: fit-content;
+    margin-left: auto;
+	margin-right: auto;
 }
 
 ::selection {
