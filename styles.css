@@ -22,7 +22,7 @@ h3 {
 	font-family: "Roboto", sans-serif;
 }
 
-a {
+a:link {
 	color: yellow;
 }
 
@@ -31,6 +31,10 @@ a:visited {
 }
 
 a:hover {
+	color: white;
+}
+
+a:active {
 	color: white;
 }
 
